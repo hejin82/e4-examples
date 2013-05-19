@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_ZyYyoMBBEeK2VtCS33cTEA" elementId="org.eclipse.e4.ide.application" bindingContexts="_ZyYyocBBEeK2VtCS33cTEA">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_ZyYyt8BBEeK2VtCS33cTEA" label="com.steelejr.e4.examples.app" width="500" height="400">
+    <children xsi:type="advanced:PerspectiveStack" xmi:id="_ZyZZtMBBEeK2VtCS33cTEA">
+      <children xsi:type="advanced:Perspective" xmi:id="_ZyZZtcBBEeK2VtCS33cTEA">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_ZyZZtsBBEeK2VtCS33cTEA">
+          <children xsi:type="basic:PartStack" xmi:id="_ZyZZt8BBEeK2VtCS33cTEA"/>
+        </children>
+      </children>
+    </children>
+    <mainMenu xmi:id="_ZyYyuMBBEeK2VtCS33cTEA" elementId="menu:org.eclipse.ui.main.menu">
+      <children xsi:type="menu:Menu" xmi:id="_ZyYyucBBEeK2VtCS33cTEA" label="File">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_ZyYyusBBEeK2VtCS33cTEA" label="Open" iconURI="platform:/plugin/com.steelejr.e4.examples.app/icons/sample.gif" command="_ZyYyrsBBEeK2VtCS33cTEA"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_ZyZZsMBBEeK2VtCS33cTEA" label="Save" iconURI="platform:/plugin/com.steelejr.e4.examples.app/icons/save_edit.gif" command="_ZyYyscBBEeK2VtCS33cTEA"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_ZyZZscBBEeK2VtCS33cTEA" label="Quit" command="_ZyYyqsBBEeK2VtCS33cTEA"/>
+      </children>
+      <children xsi:type="menu:Menu" xmi:id="_ZyZZssBBEeK2VtCS33cTEA" label="Help">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_ZyZZs8BBEeK2VtCS33cTEA" label="About" command="_ZyYytMBBEeK2VtCS33cTEA"/>
+      </children>
+    </mainMenu>
+    <trimBars xmi:id="_ZyZZuMBBEeK2VtCS33cTEA">
+      <children xsi:type="menu:ToolBar" xmi:id="_ZyZZucBBEeK2VtCS33cTEA" elementId="toolbar:org.eclipse.ui.main.toolbar">
+        <children xsi:type="menu:HandledToolItem" xmi:id="_ZyZZusBBEeK2VtCS33cTEA" iconURI="platform:/plugin/com.steelejr.e4.examples.app/icons/sample.gif" command="_ZyYyrsBBEeK2VtCS33cTEA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_ZyZZu8BBEeK2VtCS33cTEA" iconURI="platform:/plugin/com.steelejr.e4.examples.app/icons/save_edit.gif" command="_ZyYyscBBEeK2VtCS33cTEA"/>
+      </children>
+    </trimBars>
+  </children>
+  <handlers xmi:id="_ZyYyq8BBEeK2VtCS33cTEA" contributionURI="bundleclass://com.steelejr.e4.examples.app/com.steelejr.e4.examples.app.handlers.QuitHandler" command="_ZyYyqsBBEeK2VtCS33cTEA"/>
+  <handlers xmi:id="_ZyYyr8BBEeK2VtCS33cTEA" contributionURI="bundleclass://com.steelejr.e4.examples.app/com.steelejr.e4.examples.app.handlers.OpenHandler" command="_ZyYyrsBBEeK2VtCS33cTEA"/>
+  <handlers xmi:id="_ZyYyssBBEeK2VtCS33cTEA" contributionURI="bundleclass://com.steelejr.e4.examples.app/com.steelejr.e4.examples.app.handlers.SaveHandler" command="_ZyYyscBBEeK2VtCS33cTEA"/>
+  <handlers xmi:id="_ZyYytcBBEeK2VtCS33cTEA" contributionURI="bundleclass://com.steelejr.e4.examples.app/com.steelejr.e4.examples.app.handlers.AboutHandler" command="_ZyYytMBBEeK2VtCS33cTEA"/>
+  <bindingTables xmi:id="_ZyYyrMBBEeK2VtCS33cTEA" bindingContext="_ZyYyocBBEeK2VtCS33cTEA">
+    <bindings xmi:id="_ZyYyrcBBEeK2VtCS33cTEA" keySequence="M1+Q" command="_ZyYyqsBBEeK2VtCS33cTEA"/>
+    <bindings xmi:id="_ZyYysMBBEeK2VtCS33cTEA" keySequence="M1+O" command="_ZyYyrsBBEeK2VtCS33cTEA"/>
+    <bindings xmi:id="_ZyYys8BBEeK2VtCS33cTEA" keySequence="M1+S" command="_ZyYyscBBEeK2VtCS33cTEA"/>
+    <bindings xmi:id="_ZyYytsBBEeK2VtCS33cTEA" keySequence="M1+A" command="_ZyYytMBBEeK2VtCS33cTEA"/>
+  </bindingTables>
+  <rootContext xmi:id="_ZyYyocBBEeK2VtCS33cTEA" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
+    <children xmi:id="_ZyYyosBBEeK2VtCS33cTEA" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
+    <children xmi:id="_ZyYyo8BBEeK2VtCS33cTEA" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
+  </rootContext>
+  <commands xmi:id="_ZyYyqsBBEeK2VtCS33cTEA" elementId="org.eclipse.ui.file.exit" commandName="quitCommand"/>
+  <commands xmi:id="_ZyYyrsBBEeK2VtCS33cTEA" elementId="com.steelejr.e4.examples.app.open" commandName="openCommand"/>
+  <commands xmi:id="_ZyYyscBBEeK2VtCS33cTEA" elementId="org.eclipse.ui.file.save" commandName="saveCommand"/>
+  <commands xmi:id="_ZyYytMBBEeK2VtCS33cTEA" elementId="org.eclipse.ui.help.aboutAction" commandName="aboutCommand"/>
+  <addons xmi:id="_ZyYypMBBEeK2VtCS33cTEA" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_ZyYypcBBEeK2VtCS33cTEA" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_ZyYypsBBEeK2VtCS33cTEA" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_ZyYyp8BBEeK2VtCS33cTEA" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_ZyYyqMBBEeK2VtCS33cTEA" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_ZyYyqcBBEeK2VtCS33cTEA" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+</application:Application>
