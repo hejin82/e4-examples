@@ -1,0 +1,5 @@
+package com.steelejr.e4.examples.fx.progress;
+
+public class ProgressBarTableCellTest {
+
+}

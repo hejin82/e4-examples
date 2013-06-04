@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            name="com.steelejr.e4.examples.fx"
+            application="at.bestsolution.efxclipse.runtime.workbench.fx.application">
+         <property
+               name="appName"
+               value="JavaFx e4 Examples">
+         </property>
+         <property
+               name="applicationXMI"
+               value="com.steelejr.e4.examples.fx/Application.e4xmi">
+         </property>
+         <property
+               name="applicationCSS"
+               value="platform:/plugin/com.steelejr.e4.examples.fx/css/default.css">
+         </property>
+         <property
+               name="cssTheme"
+               value="com.steelejr.e4.examples.fx.property1">
+         </property>
+      </product>
+   </extension>
+
+</plugin>
