@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ASCII"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_OQIyIOGYEeKYdZE3dUQSCw" elementId="org.eclipse.e4.ide.application">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_OQIyN-GYEeKYdZE3dUQSCw" label="com.steelejr.dsl.e4.app" width="800" height="600">
+    <children xsi:type="advanced:PerspectiveStack" xmi:id="_OQJZNuGYEeKYdZE3dUQSCw">
+      <children xsi:type="advanced:Perspective" xmi:id="_OQJZN-GYEeKYdZE3dUQSCw" elementId="com.steelejr.dsl.e4.app.langDesignPerspective" iconURI="">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_OQJZOOGYEeKYdZE3dUQSCw" horizontal="true">
+          <children xsi:type="basic:PartStack" xmi:id="_OQJZOeGYEeKYdZE3dUQSCw" containerData="40">
+            <tags>org.eclipse.e4.primaryNavigationStack</tags>
+            <tags>newtablook</tags>
+            <children xsi:type="advanced:Placeholder" xmi:id="_h1Y5cOj2EeKQsMmRKWrKjw" elementId="org.eclipse.ui.navigator.ProjectExplorer" ref="_JL6UMOj0EeKQsMmRKWrKjw" closeable="true"/>
+          </children>
+          <children xsi:type="basic:PartSashContainer" xmi:id="_1d4CUOj-EeKugKIm9aQDaQ" elementId="com.steelejr.dsl.comp.app.partsashcontainer.0" containerData="">
+            <children xsi:type="advanced:Placeholder" xmi:id="_7CxOQOj-EeKugKIm9aQDaQ" elementId="org.eclipse.ui.editorss" ref="_Hmg4kNSjEeGwXp2p959l3w"/>
+            <children xsi:type="basic:PartStack" xmi:id="_87220Oj-EeKugKIm9aQDaQ" elementId="org.eclipse.ui.views.PropertySheetMStack" containerData="50">
+              <tags>newtablook</tags>
+              <tags>org.eclipse.e4.secondaryDataStack</tags>
+              <children xsi:type="advanced:Placeholder" xmi:id="_LNLVcOkBEeKugKIm9aQDaQ" elementId="org.eclipse.ui.views.PropertySheet" ref="_p0t78OkAEeKugKIm9aQDaQ"/>
+            </children>
+          </children>
+        </children>
+      </children>
+    </children>
+    <mainMenu xmi:id="_OQIyOOGYEeKYdZE3dUQSCw" elementId="menu:org.eclipse.ui.main.menu"/>
+    <sharedElements xsi:type="advanced:Area" xmi:id="_Hmg4kNSjEeGwXp2p959l3w" elementId="org.eclipse.ui.editorss">
+      <children xsi:type="basic:PartStack" xmi:id="_HmhfoNSjEeGwXp2p959l3w" elementId="org.eclipse.e4.primaryDataStack">
+        <tags>newtablook</tags>
+        <tags>org.eclipse.e4.primaryDataStack</tags>
+        <tags>EditorStack</tags>
+      </children>
+    </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_JL6UMOj0EeKQsMmRKWrKjw" elementId="org.eclipse.ui.navigator.ProjectExplorer" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Project Explorer" iconURI="platform:/plugin/org.eclipse.ui.navigator.resources//icons/full/eview16/resource_persp.gif"/>
+    <sharedElements xsi:type="basic:Part" xmi:id="_p0t78OkAEeKugKIm9aQDaQ" elementId="org.eclipse.ui.views.PropertySheet" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Properties" iconURI="platform:/plugin/org.eclipse.ui.views//icons/full/eview16/prop_ps.gif" tooltip="Properties" closeable="true">
+      <menus xmi:id="_PzSIcOkCEeKugKIm9aQDaQ" elementId="org.eclipse.ui.views.PropertySheet">
+        <tags>ViewMenu</tags>
+        <tags>menuContribution:menu</tags>
+      </menus>
+    </sharedElements>
+    <trimBars xmi:id="_2dXRUOlqEeKkMNmh_ATEwA" elementId="com.steelejr.dsl.comp.app.trimbar.0" side="Bottom">
+      <children xsi:type="menu:ToolBar" xmi:id="_3mYH0OlqEeKkMNmh_ATEwA" elementId="com.steelejr.dsl.comp.app.toolbar.0">
+        <children xsi:type="menu:HandledToolItem" xmi:id="_4MnBYOlqEeKkMNmh_ATEwA" elementId="com.steelejr.dsl.comp.app.handledtoolitem.0" iconURI="platform:/plugin/testerComp/icons/alt_window_16.gif" command="_wT5_wOlqEeKkMNmh_ATEwA"/>
+      </children>
+    </trimBars>
+  </children>
+  <handlers xmi:id="_zbc_gOlqEeKkMNmh_ATEwA" elementId="com.steelejr.dsl.comp.app.handler.0" contributionURI="bundleclass://tester/tester.handlers.AboutHandler" command="_wT5_wOlqEeKkMNmh_ATEwA"/>
+  <bindingTables xmi:id="_NH3-MOkaEeKr9LpH352KvQ" elementId="com.steelejr.dsl.comp.app.bindingtable.0" bindingContext="_7xcsoOkTEeKr9LpH352KvQ"/>
+  <rootContext xmi:id="_7xcsoOkTEeKr9LpH352KvQ" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
+    <children xmi:id="_pZA_8OkXEeKr9LpH352KvQ" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
+    <children xmi:id="_q5GSoOkXEeKr9LpH352KvQ" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
+  </rootContext>
+  <commands xmi:id="_wT5_wOlqEeKkMNmh_ATEwA" elementId="openCommandId" commandName="openCommand"/>
+  <addons xmi:id="_OQIyJOGYEeKYdZE3dUQSCw" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_OQIyJeGYEeKYdZE3dUQSCw" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_OQIyJuGYEeKYdZE3dUQSCw" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_OQIyJ-GYEeKYdZE3dUQSCw" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_OQIyKOGYEeKYdZE3dUQSCw" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_OQIyKeGYEeKYdZE3dUQSCw" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+</application:Application>

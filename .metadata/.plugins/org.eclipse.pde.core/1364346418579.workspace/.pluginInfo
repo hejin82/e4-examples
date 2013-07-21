@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+	<bundle bundleID="753" class="com.steelejr.e4.examples.fragment.Activator" localization="OSGI-INF/l10n/bundle" name="Ui" project="com.steelejr.e4.examples.fragment" provider="STEELEJR"/>
+	<bundle bundleID="754" localization="OSGI-INF/l10n/bundle" name="Controls" project="at.bestsolution.efxclipse.runtime.workbench.fx.controls">
+		<library name="libs/api.jar"/>
+		<library name="."/>
+		<library name="libs/fx2.jar"/>
+		<library name="libs/fx8.jar"/>
+	</bundle>
+	<bundle bundleID="755" localization="OSGI-INF/l10n/bundle" name="%Bundle-Name" project="at.bestsolution.efxclipse.runtime.services" provider="%Bundle-Vendor"/>
+	<bundle bundleID="756" localization="OSGI-INF/l10n/bundle" name="%Bundle-Name" project="at.bestsolution.efxclipse.runtime.panels" provider="%Bundle-Vendor"/>
+	<bundle bundleID="757" localization="OSGI-INF/l10n/bundle" name="Fx" project="at.bestsolution.efxclipse.runtime.workbench.renderers.fx"/>
+	<bundle bundleID="758" localization="OSGI-INF/l10n/bundle" name="Animationutils" project="at.bestsolution.efxclipse.runtime.animationutils" provider="BestSolution.at"/>
+	<bundle bundleID="759" class="at.bestsolution.efxclipse.runtime.theme.internal.Activator" localization="OSGI-INF/l10n/bundle" name="%Bundle-Name" project="at.bestsolution.efxclipse.runtime.theme" provider="%Bundle-Vendor"/>
+	<bundle bundleID="760" localization="OSGI-INF/l10n/bundle" name="E4" project="at.bestsolution.efxclipse.runtime.bindings.e4"/>
+	<bundle bundleID="761" class="com.steelejr.e4.examples.tycho.Activator" localization="OSGI-INF/l10n/bundle" name="Tycho" project="com.steelejr.e4.examples.tycho" provider="STEELEJR"/>
+	<bundle bundleID="762" class="at.bestsolution.efxclipse.runtime.workbench.fx.internal.WorkbenchJFXActivator" localization="OSGI-INF/l10n/bundle" name="Fx" project="at.bestsolution.efxclipse.runtime.workbench.fx"/>
+	<bundle bundleID="763" class="com.steelejr.e4.examples.extension.Activator" localization="OSGI-INF/l10n/bundle" name="Extension" project="com.steelejr.e4.examples.extension" provider="STEELEJR"/>
+	<bundle bundleID="764" localization="OSGI-INF/l10n/bundle" name="%Bundle-Name" project="at.bestsolution.efxclipse.runtime.application" provider="%Bundle-Vendor"/>
+	<bundle bundleID="765" localization="OSGI-INF/l10n/bundle" name="%Bundle-Name" project="at.bestsolution.efxclipse.runtime.osgi" provider="%Bundle-Vendor"/>
+	<bundle bundleID="766" localization="OSGI-INF/l10n/bundle" name="%Bundle-Name" project="at.bestsolution.efxclipse.runtime.osgi.util" provider="%Bundle-Vendor"/>
+	<bundle bundleID="767" localization="OSGI-INF/l10n/bundle" name="%Bundle-Name" project="at.bestsolution.efxclipse.runtime.databinding" provider="%Bundle-Vendor"/>
+	<bundle bundleID="768" class="com.steelejr.e4.examples.app.Activator" localization="OSGI-INF/l10n/bundle" name="App" project="com.steelejr.e4.examples.app" provider="STEELEJR"/>
+	<bundle bundleID="769" class="com.steelejr.e4.examples.context.Activator" localization="OSGI-INF/l10n/bundle" name="Context" project="com.steelejr.e4.examples.context" provider="STEELEJR"/>
+	<bundle bundleID="770" class="com.steelejr.e4.examples.compat.Activator" localization="OSGI-INF/l10n/bundle" name="Compat" project="com.steelejr.e4.examples.compat" provider="STEELEJR"/>
+	<bundle bundleID="771" localization="OSGI-INF/l10n/bundle" name="%Bundle-Name" project="at.bestsolution.efxclipse.runtime.core" provider="%Bundle-Vendor"/>
+	<bundle bundleID="772" localization="OSGI-INF/l10n/bundle" name="Base" project="at.bestsolution.efxclipse.runtime.workbench.base"/>
+	<bundle bundleID="773" class="com.steelejr.examples.processor.Activator" localization="OSGI-INF/l10n/bundle" name="Processor" project="com.steelejr.e4.examples.processor" provider="STEELEJR"/>
+	<bundle bundleID="774" localization="OSGI-INF/l10n/bundle" name="%Bundle-Name" project="at.bestsolution.efxclipse.runtime.javafx" provider="%Bundle-Vendor">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="776" localization="OSGI-INF/l10n/bundle" name="Base" project="at.bestsolution.efxclipse.runtime.workbench.renderers.base"/>
+	<bundle bundleID="775" class="com.steelejr.e4.examples.platformservices.Activator" localization="OSGI-INF/l10n/bundle" name="Platformservices" project="com.steelejr.e4.examples.platformservices" provider="STEELEJR"/>
+	<bundle bundleID="784" class="tester.Activator" localization="OSGI-INF/l10n/bundle" name="Tester" project="tester"/>
+	<bundle bundleID="778" class="com.steelejr.e4.examples.editmodel.Activator" localization="OSGI-INF/l10n/bundle" name="Editmodel" project="com.steelejr.e4.examples.editmodel" provider="STEELEJR"/>
+	<bundle bundleID="777" localization="OSGI-INF/l10n/bundle" name="Dialogs" project="at.bestsolution.efxclipse.runtime.dialogs"/>
+	<bundle bundleID="779" localization="OSGI-INF/l10n/bundle" name="%Bundle-Name" project="at.bestsolution.efxclipse.runtime.di" provider="%Bundle-Vendor"/>
+	<bundle bundleID="785" class="testercomp.Activator" localization="OSGI-INF/l10n/bundle" name="TesterComp" project="testerComp"/>
+	<bundle bundleID="781" class="com.steelejr.e4.examples.binding.Activator" localization="OSGI-INF/l10n/bundle" name="Binding" project="com.steelejr.e4.examples.binding" provider="STEELEJR"/>
+	<bundle bundleID="780" localization="OSGI-INF/l10n/bundle" name="Bindings" project="at.bestsolution.efxclipse.runtime.bindings"/>
+	<bundle bundleID="782" class="com.steelejr.e4.examples.testing.junit.Activator" localization="OSGI-INF/l10n/bundle" name="Junit" project="com.steelejr.e4.examples.testing.junit" provider="STEELEJR"/>
+	<bundle bundleID="783" class="com.steelejr.e4.examples.fx.Activator" localization="OSGI-INF/l10n/bundle" name="Fx" project="com.steelejr.e4.examples.fx" provider="STEELEJR"/>
+</map>

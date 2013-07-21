@@ -1,0 +1,12 @@
+{
+  "/usr/lib/jvm/jdk1.7.0_17/jre/lib/rt.jar": {
+    "coordinate": "jre:jre:zip:call:1.0.0",
+    "location": "/usr/lib/jvm/jdk1.7.0_17/jre/lib/rt.jar",
+    "status": "RESOLVED"
+  },
+  "/home/jroot/Desktop/eclipse_juno/eclipse/plugins/org.eclipse.e4.ui.workbench_0.11.0.v20130125-100758.jar": {
+    "coordinate": "org.eclipse.e4:org.eclipse.e4.ui.workbench:zip:call:0.0.0",
+    "location": "/home/jroot/Desktop/eclipse_juno/eclipse/plugins/org.eclipse.e4.ui.workbench_0.11.0.v20130125-100758.jar",
+    "status": "RESOLVED"
+  }
+}
